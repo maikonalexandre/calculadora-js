@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+<div class="calculadora">
+<input id="inputtext" class="textinput" type="text" maxlength="15">
+<br> 
+<button onclick="limpartela()" class="num_btn">CE</button>
+<button onclick="limparum()" class="num_btn">C</button>
+<button onclick="porcentagem()" class="num_btn">%</button>
+<button onclick="dividir()" class="num_btn">:</button>
+<br>
+<button onclick="addTexto(this)" class="num_btn">7</button>
+<button onclick="addTexto(this)" class="num_btn">8</button>
+<button onclick="addTexto(this)" class="num_btn">9</button>
+<button onclick="vezes()" class="num_btn">x</button>
+<br>
+<button onclick="addTexto(this)" class="num_btn">4</button>
+<button onclick="addTexto(this)" class="num_btn">5</button>
+<button onclick="addTexto(this)" class="num_btn">6</button>
+<button onclick="menos()" class="num_btn">-</button>
+<br>
+<button onclick="addTexto(this)" class="num_btn">1</button>
+<button onclick="addTexto(this)" class="num_btn">2</button>
+<button onclick="addTexto(this)" class="num_btn">3</button>
+<button onclick="soma()" class="num_btn">+</button>
+<br>
+<button onclick="addTexto(this)" class="num_btn">0</button>
+<button onclick="addTexto(this)" class="num_btn">.</button>
+<button onclick="igual()" class="num_btn">=</button>
+</div>
+</div>
+</body>
+</html>
